@@ -3,28 +3,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
-
-//Plain Commands
-/*
-
-rem = comments
-
-The get, print, goto, and end statements correspond directly to the IML read, write,
-branch, and halt instructions, respectively.
-    o get only gets a single numeric variable
-    o print can print either a single numeric variable or a numeric literal constant
-    o Every line of code begins with a line number. Line numbers are strictly
-        increasing in the program, but numbers may be skipped. goto transfers control to
-        another line
-
-if condition goto lineNumber = Evaluate a condition and transfer control to another line
-if the condition is true. The condition compares a variable to another variable or a
-numeric constant. Comparisons use = or >.
-
-let = the assignment statement. Assigns a value to a variable. The value may a single
-literal constant, a variable, or an arithmetic expression involving two values (each of
-which may be literal constants or variables).
-*/
+#include <cstdlib>
 
 enum class TokenType {
     LINE_NUMBER,
