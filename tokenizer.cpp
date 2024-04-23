@@ -102,7 +102,7 @@ private:
 
 int main() {
     std::string filename;
-    std::cout << "Enter the name of the file to tokenize";
+    std::cout << "Enter the name of the file to tokenize ";
     std::getline(std::cin, filename);
 
     if (filename.empty()) {

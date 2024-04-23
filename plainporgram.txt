@@ -1,6 +1,0 @@
-10 get x
-20 if x = 0 goto 90
-30 print x
-40 let x = x – 1
-50 goto 20
-90 end
