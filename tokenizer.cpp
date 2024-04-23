@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
-#include <cstdlib>
+#include <algorithm>
 
 enum class TokenType {
     LINE_NUMBER,
